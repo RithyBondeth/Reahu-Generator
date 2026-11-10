@@ -17,6 +17,24 @@
 
 </div>
 
+<!-- product-images:start -->
+
+## Product preview
+
+<p align="center">
+  <img src="docs/product-images/hero.png" alt="Reahu Generator — Build a profile README visually, then take the Markdown with you." width="100%">
+</p>
+
+<table>
+<tr>
+  <td width="33%"><img src="docs/product-images/feature-01.png" alt="Compose your next introduction. — Start with a template or arrange the blocks that tell your story." width="100%"></td>
+  <td width="33%"><img src="docs/product-images/feature-02.png" alt="Edit here. Preview there. — See a GitHub-style preview while you compose and rearrange blocks." width="100%"></td>
+  <td width="33%"><img src="docs/product-images/feature-03.png" alt="Make it yours. Take it with you. — Copy or download the Markdown. Drafts and edits stay in your browser." width="100%"></td>
+</tr>
+</table>
+
+<!-- product-images:end -->
+
 ---
 
 ![Reahu Generator landing page showing the block-based profile builder](./public/screenshots/reahu-landing.jpg)
@@ -47,14 +65,14 @@ Everything runs in your browser. There is no account, database, or backend, and 
 
 ## Tech Stack
 
-| Area | Technology |
-| --- | --- |
-| Framework | Nuxt 4, Vue 3 |
-| Language | TypeScript |
-| UI | Nuxt UI, Tailwind CSS 4, Iconify (Lucide, Simple Icons) |
-| Editing | vue-draggable-plus, VueUse |
-| Rendering | markdown-it, DOMPurify, lz-string |
-| Quality | Vitest, ESLint, vue-tsc, GitHub Actions, Renovate |
+| Area      | Technology                                              |
+| --------- | ------------------------------------------------------- |
+| Framework | Nuxt 4, Vue 3                                           |
+| Language  | TypeScript                                              |
+| UI        | Nuxt UI, Tailwind CSS 4, Iconify (Lucide, Simple Icons) |
+| Editing   | vue-draggable-plus, VueUse                              |
+| Rendering | markdown-it, DOMPurify, lz-string                       |
+| Quality   | Vitest, ESLint, vue-tsc, GitHub Actions, Renovate       |
 
 ## Getting Started
 
@@ -76,14 +94,14 @@ Open [http://localhost:3000](http://localhost:3000). The builder is at [http://l
 
 ### Scripts
 
-| Command | Description |
-| --- | --- |
-| `npm run dev` | Start the development server |
-| `npm run build` | Create a production build in `.output/` |
-| `npm run preview` | Preview the production build |
-| `npm run lint` | Run ESLint |
-| `npm run typecheck` | Run Nuxt and Vue type checks |
-| `npm test` | Run the document and renderer regression tests |
+| Command             | Description                                    |
+| ------------------- | ---------------------------------------------- |
+| `npm run dev`       | Start the development server                   |
+| `npm run build`     | Create a production build in `.output/`        |
+| `npm run preview`   | Preview the production build                   |
+| `npm run lint`      | Run ESLint                                     |
+| `npm run typecheck` | Run Nuxt and Vue type checks                   |
+| `npm test`          | Run the document and renderer regression tests |
 
 ## How It Works
 
